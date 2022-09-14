@@ -46,6 +46,7 @@ public class Main {
         System.out.println("Вычитание из большего веса меньшего " + differenceBoxer + " кг");
         var differenceBoxer2 = secondBoxer % firstBoxer;
         System.out.println("Используя функцию остаток от деления " + differenceBoxer2 + " кг");
+        System.out.println("Задание 3.1");
         var sumTime = 640;
         var jobTime = 8;
         var worker = sumTime / jobTime;
