@@ -26,6 +26,20 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
-
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        var sumBoxer = firstBoxer + secondBoxer;
+        System.out.println("Общий вес боксеров " + sumBoxer + " кг");
+        var differenceBoxer = secondBoxer - firstBoxer;
+        System.out.println("Вычитание из большего веса меньшего " + differenceBoxer + " кг");
+        var differenceBoxer2 = secondBoxer % firstBoxer;
+        System.out.println("Используя функцию остаток от деления " + differenceBoxer2 + " кг");
+        var sumTime = 640;
+        var jobTime = 8;
+        var worker = sumTime / jobTime;
+        System.out.println("Всего работников в компании – " + worker + " человек");
+        var newWorker = worker + 94;
+        var newSumTime = newWorker * 8;
+        System.out.println("Если в компании работает " + newWorker + " человек, " + "то всего " + newSumTime + " часов работы может быть поделено между сотрудниками.");
     }
 }
